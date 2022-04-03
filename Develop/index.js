@@ -31,7 +31,7 @@ const questions = [
 
   {
     type: "input",
-    message: "Please input the contribution guidelines",
+    message: "Please input contributions",
     name: "contributionGuidelines",
   },
 
@@ -81,7 +81,9 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   const template = `
-# ${data.projectTitle}
+
+
+# ${data.projectTitle}      ![badmath](https://shields.io/badge/${data.licence}-blue)
 
 ## Description
 
@@ -91,8 +93,10 @@ ${data.description}
     
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Contributions](#contributions)
 - [License](#license)
+- [Tests](#tests)
+- [Questions](#questions)
     
 ## Installation
 
@@ -102,21 +106,26 @@ ${data.installation}
     
 ${data.usage}
 
-## Credits
+## Contributions
 
 ${data.contributionGuidelines}
     
 ## License
 
-${data.licence}
-    
-## Badges
-    
-![badmath](https://shields.io/badge/${data.licence}-blue)
-    
+Notice: The current repository is covered under the ${data.licence} license. Please work accordinly to the guidlines set by it.
+
+        
 ## Tests
 
 ${data.test}
+
+## Questions
+
+My Github username is ${data.userName}. The link to my profile: https://github.com/${data.userName}.
+
+If there is anything you would like to ask me - either about myself or the code - please email my at ${data.email}.
+
+
     `;
   fs.writeFile(fileName, template, (err) =>
     err ? console.error(err) : console.log("Commit logged!")

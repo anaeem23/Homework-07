@@ -40,4 +40,23 @@ THEN I am taken to the corresponding section of the README
 
 ## Submission
 
-The following steps showcase how to use the app. A video is availbe as well here:  ![Video explaining the App](./Assets/Professional%20README%20Generator.mp4)
+The following steps showcase how to use the app. A video is availbe as well here: https://github.com/anaeem23/Professional-README-Generator/blob/master/Assets/Professional%20README%20Generator.mp4
+
+```md
+
+1. Open terminal in the location of "index.js"
+
+2. Enter "node index.js"
+
+3. Answer all the questions
+
+4. Once all the questions have been answered, the README will be created in same folder as "index.js"
+
+```
+
+A GIF going through a sample example is shown below:
+
+
+![Sample Example](./Assets/Professional%20README%20Generator.gif)
+    
+

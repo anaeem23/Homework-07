@@ -40,7 +40,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Submission
 
-The following steps showcase how to use the app. A video is availbe as well here: https://github.com/anaeem23/Professional-README-Generator/blob/master/Assets/Professional%20README%20Generator.mp4
+The following steps showcase how to use the app. A video is availbe as well here: https://drive.google.com/file/d/1Jp_SKQXlK0p8aOSD03_nVbvEepKPjmzR/view
 
 ```md
 
